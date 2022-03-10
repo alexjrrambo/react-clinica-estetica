@@ -12,12 +12,17 @@ import {
   FaFilter,
   FaHome,
   FaInstagramSquare,
+  FaMailBulk,
   FaPhone,
   FaSearch,
   FaSpinner,
 } from 'react-icons/fa';
 
 const defaultSize = 1;
+
+export const MailIcon = ({ size }) => (
+  <FaMailBulk size={`${size || defaultSize}rem`} />
+);
 
 export const PhoneIcon = ({ size }) => (
   <FaPhone size={`${size || defaultSize}rem`} />

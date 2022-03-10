@@ -1,15 +1,55 @@
 import styled from 'styled-components';
-import Toolbar from '@material-ui/core/Toolbar';
 
 export const FooterContainer = styled.footer`
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+  background: #59593D;
+  color: #fff;
+`;
+
+export const FooterContent = styled.div`
+  display: flex;
+  width: 100%;
+
+  > * {
+    flex: 1;
+  }
+`;
+
+export const FooterLeft = styled.div`
+  margin: 2rem;
+
+  > div {
+    margin-top: 0.7rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  span {
+    margin-left: 0.2rem;
+  }
+`;
+
+export const FooterCenter = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  > img {
+    height: 10rem;
+    margin-top: 2rem;
+  }
+`;
+
+export const FooterDescription = styled.div`
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 10rem;
-  font-size: 0.8rem;
-  background: #272334;
-  color: #fff;
+  height: 5rem;
 
   div {
     padding: 0 1rem;
@@ -19,8 +59,4 @@ export const FooterContainer = styled.footer`
       border: 0;
     }
   }
-`;
-
-export const FooterContent = styled(Toolbar)`
-
 `;

@@ -18,6 +18,7 @@ import {
 // import Footer from '../../../components/Site/Footer';
 import BackgroundImage from '../../../assets/image-home2.jpg';
 import LocalizationImage from '../../../assets/localization.png';
+import Footer from '../../../components/Site/Footer';
 
 const data = [
   {
@@ -119,6 +120,7 @@ const Home = () => {
           </button>
         </LocalizationContent>
       </LocalizationContainer>
+      <Footer />
     </>
   );
 };
