@@ -103,7 +103,7 @@ const Header = props => {
               <img src={logoWhite} alt="Logo Quantify" />
             </div>
             <HeaderActionMenu>
-              <Button color="inherit">Home</Button>
+              <Button color="inherit"><LinkStyled to="/">Home</LinkStyled></Button>
               <div>
                 <Button
                   id="institucional-button"
