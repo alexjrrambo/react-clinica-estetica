@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { Menu } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
 export const HeaderContainer = styled(AppBar)`
   && {
@@ -9,9 +10,9 @@ export const HeaderContainer = styled(AppBar)`
     background: #fff;
     color: #999;
 
-    @media (max-width: 1250px) {
+    /* @media (max-width: 1250px) {
       display: none;
-    }
+    } */
   }
 `;
 
@@ -75,9 +76,9 @@ export const HeaderContactMenu = styled.div`
     fill: #59593D;
   }
 
-  @media (max-width: 1250px) {
+  /* @media (max-width: 1250px) {
     display: none;
-  }
+  } */
 `;
 
 export const HeaderActionMenu = styled.div`
@@ -88,9 +89,9 @@ export const HeaderActionMenu = styled.div`
     font-size: 0.7rem;
   }
 
-  @media (max-width: 1250px) {
+  /* @media (max-width: 1250px) {
     display: none;
-  }
+  } */
 `;
 
 export const ContextualMenuContent = styled(Menu)`
@@ -101,5 +102,12 @@ export const ContextualMenuContent = styled(Menu)`
       font-size: 0.8rem;
       color: #999;
     }
+  }
+`;
+
+export const LinkStyled = styled(Link)`
+  && {
+    text-decoration: none;
+    color: #999;
   }
 `;

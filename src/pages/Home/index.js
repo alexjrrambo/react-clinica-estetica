@@ -2,7 +2,6 @@ import React from 'react';
 import { Button, Card } from '@material-ui/core';
 import DztImageGalleryComponent from 'reactjs-image-gallery';
 
-import Header from '../../../components/Site/Header';
 import {
   ActionsContent,
   CardContentStyled,
@@ -15,10 +14,8 @@ import {
   LocalizationContent,
   MainContainer,
 } from './styles';
-// import Footer from '../../../components/Site/Footer';
-import BackgroundImage from '../../../assets/image-home2.jpg';
-import LocalizationImage from '../../../assets/localization.png';
-import Footer from '../../../components/Site/Footer';
+import BackgroundImage from '../../assets/image-home2.jpg';
+import LocalizationImage from '../../assets/localization.png';
 
 const data = [
   {
@@ -70,7 +67,6 @@ const Home = () => {
 
   return (
     <>
-      <Header />
       <MainContainer>
         <Content>
           <ContentLeft>
@@ -120,7 +116,6 @@ const Home = () => {
           </button>
         </LocalizationContent>
       </LocalizationContainer>
-      <Footer />
     </>
   );
 };

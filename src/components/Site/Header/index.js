@@ -19,7 +19,9 @@ import {
   HeaderContactMenu,
   HeaderContainer,
   HeaderContent,
+  LinkStyled,
 } from './styles';
+
 // import HeaderSiteMenu from './Menu';
 
 function HideOnScroll(props) {
@@ -122,7 +124,7 @@ const Header = props => {
                     'aria-labelledby': 'institucional-button',
                   }}
                 >
-                  <MenuItem onClick={handleClose}>Sobre a Dra Francini Pereira</MenuItem>
+                  <MenuItem onClick={handleClose}><LinkStyled to="/sobre"> Sobre a Dra Francini Pereira</LinkStyled></MenuItem>
                   <MenuItem onClick={handleClose}>Francini Pereira Biomedicina Estética</MenuItem>
                 </ContextualMenuContent>
               </div>
