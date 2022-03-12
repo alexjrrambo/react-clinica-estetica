@@ -24,7 +24,7 @@ export default createGlobalStyle`
     font-family: Helvetica, sans-serif;
     font-size: 25px;
     color: #011721;
-    background:#F8FAFB;
+    background: #fff;
   }
 
   h1 {

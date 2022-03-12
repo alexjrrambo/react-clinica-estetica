@@ -125,7 +125,7 @@ const Header = props => {
                   }}
                 >
                   <MenuItem onClick={handleClose}><LinkStyled to="/sobre"> Sobre a Dra Francini Pereira</LinkStyled></MenuItem>
-                  <MenuItem onClick={handleClose}>Francini Pereira Biomedicina Estética</MenuItem>
+                  <MenuItem onClick={handleClose}><LinkStyled to="/clinica">Francini Pereira Biomedicina Estética</LinkStyled></MenuItem>
                 </ContextualMenuContent>
               </div>
               <div>

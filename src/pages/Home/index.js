@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button, Card } from '@material-ui/core';
-import DztImageGalleryComponent from 'reactjs-image-gallery';
 
 import {
   ActionsContent,
@@ -8,7 +7,6 @@ import {
   Content,
   ContentLeft,
   ContentRight,
-  GalleryContainer,
   InformationContent,
   LocalizationContainer,
   LocalizationContent,
@@ -16,51 +14,8 @@ import {
 } from './styles';
 import BackgroundImage from '../../assets/image-home2.jpg';
 import LocalizationImage from '../../assets/localization.png';
-
-const data = [
-  {
-    url:
-      'https://images.unsplash.com/photo-1465310477141-6fb93167a273?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-    title: 'Kayak',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1465310477141-6fb93167a273?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80',
-  },
-  {
-    url:
-      'https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-    title: 'Cyclist competition',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80',
-  },
-  {
-    url:
-      'https://images.unsplash.com/photo-1526485856375-9110812fbf35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-    title: 'Surfer in action',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1526485856375-9110812fbf35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80',
-  },
-  {
-    url:
-      'https://images.unsplash.com/photo-1423994485548-7c3cf5c99cfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80',
-    title: 'Drops',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1423994485548-7c3cf5c99cfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80',
-  },
-
-  {
-    url:
-      'https://images.unsplash.com/photo-1444465693019-aa0b6392460d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-    title: 'Bird',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1444465693019-aa0b6392460d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80',
-  },
-  {
-    url:
-      'https://images.unsplash.com/photo-1436968188282-5dc61aae3d81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1436968188282-5dc61aae3d81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80',
-  },
-];
+import Gallery from '../../components/Gallery';
+import ImagesArray from '../../utils/ImagesArray';
 
 const Home = () => {
   console.log('Home');
@@ -94,19 +49,12 @@ const Home = () => {
           <ContentRight>
             <div className="image-wrapper">
               <span className="cut left" />
-              <img src={BackgroundImage} alt="asd" />
+              <img src={BackgroundImage} alt="" />
             </div>
           </ContentRight>
         </Content>
       </MainContainer>
-      <GalleryContainer>
-        <h4>Conheça nossa estrutura</h4>
-        <DztImageGalleryComponent
-          hideRotate
-          hideDownload
-          images={data}
-        />
-      </GalleryContainer>
+      <Gallery imagesData={ImagesArray} title="Conheça nossa estrutura" />
       <LocalizationContainer>
         <LocalizationContent>
           <h4>Localização</h4>

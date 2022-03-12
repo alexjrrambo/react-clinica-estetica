@@ -17,7 +17,7 @@ import { ContentLeft, ContentRight, MainContainer } from './styles';
 //   MainContainer,
 // } from './styles';
 
-const Home = () => {
+const About = () => {
   console.log('Sobre');
 
   return (
@@ -39,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;

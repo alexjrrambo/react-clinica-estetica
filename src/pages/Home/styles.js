@@ -232,45 +232,6 @@ export const BgImage = styled.div`
   z-index: -1000;
 `;
 
-export const GalleryContainer = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-
-  h4 {
-    margin: 2rem 0 0 0;
-    color: #59593D;
-  }
-
-  && {
-    > div {
-      background: #fff;
-      min-height: auto;
-    }
-
-    div > img {
-      opacity: 1;
-
-      :not(.__react_modal_image__medium_img) {
-        :hover {
-          opacity: 0.5;
-        }
-      }
-    }
-
-    figcaption {
-      display: none;
-    }
-
-    .__react_modal_image__caption {
-      display: none;
-    }
-  }
-`;
-
 export const LocalizationContainer = styled.div`
   background: #E6E7E2;
   padding: 1rem 10rem;

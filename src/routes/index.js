@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import Home from '../pages/Home';
 import About from '../pages/About';
+import Clinic from '../pages/Clinic';
 
 export const history = createBrowserHistory();
 
@@ -18,6 +19,11 @@ export const PublicRoutes = () => (
       exact
       path="/sobre"
       render={About}
+    />
+    <Route
+      exact
+      path="/clinica"
+      render={Clinic}
     />
     <Route path="/" component={Home} />
   </Switch>
