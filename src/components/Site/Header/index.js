@@ -21,6 +21,7 @@ import {
   HeaderContent,
   LinkStyled,
 } from './styles';
+import TreatmentsArray from '../../../utils/TreatmentsArray';
 
 // import HeaderSiteMenu from './Menu';
 
@@ -148,13 +149,9 @@ const Header = props => {
                     'aria-labelledby': 'Tratamentos-button',
                   }}
                 >
-                  <MenuItem onClick={handleClose}>Toxina Botulínica</MenuItem>
-                  <MenuItem onClick={handleClose}>Tratamento 2</MenuItem>
-                  <MenuItem onClick={handleClose}>Tratamento 3</MenuItem>
-                  <MenuItem onClick={handleClose}>Tratamento 4</MenuItem>
-                  <MenuItem onClick={handleClose}>Tratamento 5</MenuItem>
-                  <MenuItem onClick={handleClose}>Tratamento 6</MenuItem>
-                  <MenuItem onClick={handleClose}>Tratamento 7</MenuItem>
+                  {TreatmentsArray.map(treatments => (
+                    <MenuItem key={treatments.key} onClick={handleClose}><LinkStyled to={`/tratamentos/${treatments.key}`}>{treatments.label}</LinkStyled></MenuItem>
+                  ))}
                 </ContextualMenuContent>
               </div>
               <Button color="inherit">Contato</Button>

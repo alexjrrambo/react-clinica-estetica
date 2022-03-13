@@ -5,6 +5,7 @@ import { createBrowserHistory } from 'history';
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Clinic from '../pages/Clinic';
+import Treatments from '../pages/Treatments';
 
 export const history = createBrowserHistory();
 
@@ -24,6 +25,11 @@ export const PublicRoutes = () => (
       exact
       path="/clinica"
       render={Clinic}
+    />
+    <Route
+      exact
+      path="/tratamentos/:treatment"
+      render={props => <Treatments {...props} />}
     />
     <Route path="/" component={Home} />
   </Switch>
