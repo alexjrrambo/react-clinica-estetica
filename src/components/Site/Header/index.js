@@ -104,7 +104,7 @@ const Header = props => {
               <img src={logoWhite} alt="Logo Quantify" />
             </div>
             <HeaderActionMenu>
-              <Button color="inherit"><LinkStyled to="/">Home</LinkStyled></Button>
+              <LinkStyled to="/"><Button color="inherit">Home</Button></LinkStyled>
               <div>
                 <Button
                   id="institucional-button"
@@ -125,8 +125,8 @@ const Header = props => {
                     'aria-labelledby': 'institucional-button',
                   }}
                 >
-                  <MenuItem onClick={handleClose}><LinkStyled to="/sobre"> Sobre a Dra Francini Pereira</LinkStyled></MenuItem>
-                  <MenuItem onClick={handleClose}><LinkStyled to="/clinica">Francini Pereira Biomedicina Estética</LinkStyled></MenuItem>
+                  <LinkStyled to="/sobre"><MenuItem onClick={handleClose}>Sobre a Dra Francini Pereira</MenuItem></LinkStyled>
+                  <LinkStyled to="/clinica"><MenuItem onClick={handleClose}>Francini Pereira Biomedicina Estética</MenuItem></LinkStyled>
                 </ContextualMenuContent>
               </div>
               <div>
@@ -150,11 +150,11 @@ const Header = props => {
                   }}
                 >
                   {TreatmentsArray.map(treatments => (
-                    <MenuItem key={treatments.key} onClick={handleClose}><LinkStyled to={`/tratamentos/${treatments.key}`}>{treatments.label}</LinkStyled></MenuItem>
+                    <LinkStyled key={treatments.key} to={`/tratamentos/${treatments.key}`}><MenuItem onClick={handleClose}>{treatments.label}</MenuItem></LinkStyled>
                   ))}
                 </ContextualMenuContent>
               </div>
-              <Button color="inherit">Contato</Button>
+              <LinkStyled to="/contato"><Button color="inherit">Contato</Button></LinkStyled>
             </HeaderActionMenu>
           </HeaderContent>
         </HideOnScroll>
