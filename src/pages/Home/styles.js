@@ -1,5 +1,5 @@
 import { CardContent } from '@material-ui/core';
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 export const MainContainer = styled.section`
   height: 33rem;
@@ -124,112 +124,6 @@ export const ContentRight = styled.div`
             transform: skew(45deg) translateX(-335px);
     left: 0
   }
-`;
-
-export const FeaturesConatiner = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #000;
-  margin: 5rem;
-`;
-
-export const FeaturesContent = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-
-  @media (max-width: 1250px) {
-    flex-direction: column;
-  }
-`;
-
-export const Feature = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-
-  > div {
-    width: 20rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    label {
-      font-size: 1.2rem;
-      font-weight: bold;
-      margin: 1rem 0;
-    }
-
-    span {
-      text-align: center;
-    }
-  }
-`;
-
-export const Description = styled.div`
-  display: flex;
-  max-width: 30rem;
-
-  h1 {
-    color: #fff;
-    font-size: 2.2rem;
-    font-weight: lighter;
-    letter-spacing: 1px;
-
-    @media (max-width: 1250px) {
-      font-size: 1.5rem;
-    }
-  }
-`;
-
-export const CounterContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  letter-spacing: 2px;
-  margin-bottom: 2rem;
-
-  > label {
-    font-size: 1.3rem;
-  }
-
-  div {
-    display: flex;
-
-    > span {
-      font-size: 1.8rem;
-    }
-  }
-`;
-
-const gradient = keyframes`
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-`;
-
-export const BgImage = styled.div`
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background: linear-gradient(-45deg, #7159c1, #7f69c7, #3c3848, #272334);
-  background-size: 400% 400%;
-  animation-name: ${gradient};
-  animation-duration: 40s;
-  animation-iteration-count: infinite;
-  z-index: -1000;
 `;
 
 export const LocalizationContainer = styled.div`

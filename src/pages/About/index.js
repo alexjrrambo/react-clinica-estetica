@@ -2,20 +2,6 @@ import React from 'react';
 
 import FranciniImage from '../../assets/dra-francini.png';
 import { ContentLeft, ContentRight, MainContainer } from './styles';
-// import { Button, Card } from '@material-ui/core';
-
-// import {
-//   ActionsContent,
-//   CardContentStyled,
-//   Content,
-//   ContentLeft,
-//   ContentRight,
-//   GalleryContainer,
-//   InformationContent,
-//   LocalizationContainer,
-//   LocalizationContent,
-//   MainContainer,
-// } from './styles';
 
 const About = () => {
   console.log('Sobre');

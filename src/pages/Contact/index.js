@@ -17,20 +17,6 @@ import {
   LocalizationContent,
   MainContainer,
 } from './styles';
-// import { Button, Card } from '@material-ui/core';
-
-// import {
-//   ActionsContent,
-//   CardContentStyled,
-//   Content,
-//   ContentLeft,
-//   ContentRight,
-//   GalleryContainer,
-//   InformationContent,
-//   LocalizationContainer,
-//   LocalizationContent,
-//   MainContainer,
-// } from './styles';
 
 const Contact = () => {
   console.log('Contato');
