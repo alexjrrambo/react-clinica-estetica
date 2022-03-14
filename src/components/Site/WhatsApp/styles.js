@@ -12,5 +12,11 @@ export const Container = styled.div`
     height: 3rem;
     width: 3rem;
     cursor: pointer;
+    transition: transform .5s ease;
+
+    :hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
   }
 `;

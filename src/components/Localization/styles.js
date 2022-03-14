@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const LocalizationContainer = styled.div`
   background: #E6E7E2;
-  padding: 1rem 10rem;
+  padding: 0 10rem;
 `;
 
 export const LocalizationContent = styled.div`
