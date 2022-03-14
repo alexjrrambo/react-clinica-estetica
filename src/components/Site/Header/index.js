@@ -12,7 +12,7 @@ import {
   PhoneIcon,
 } from '../../Icons/FontAwsome';
 import logoWhite from '../../../assets/logoWhite.png';
-// import HeaderMenu from '../../Header/Menu';
+import TreatmentsArray from '../../../utils/TreatmentsArray';
 import {
   ContextualMenuContent,
   HeaderActionMenu,
@@ -21,15 +21,10 @@ import {
   HeaderContent,
   LinkStyled,
 } from './styles';
-import TreatmentsArray from '../../../utils/TreatmentsArray';
-
-// import HeaderSiteMenu from './Menu';
 
 function HideOnScroll(props) {
   const { children, window } = props;
-  // Note that you normally won't need to set the window ref as useScrollTrigger
-  // will default to window.
-  // This is only being set here because the demo is in an iframe.
+
   const trigger = useScrollTrigger({
     target: window ? window() : undefined,
   });
