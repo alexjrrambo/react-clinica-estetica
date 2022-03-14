@@ -5,6 +5,7 @@ export const Container = styled.div`
   bottom: 0;
   right: 0;
   margin: 1rem;
+  z-index: 999;
 
   img {
     border-radius: 10px;

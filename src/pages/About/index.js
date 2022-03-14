@@ -11,8 +11,8 @@ const About = () => {
       <ContentLeft>
         <h1>Sobre a Dra Francini Pereira</h1>
         <span>
-          Caros amigos, a adoção de políticas descentralizadoras cumpre um papel essencial na formulação dos índices pretendidos. Por outro lado, a complexidade dos estudos efetuados não pode mais se dissociar das diretrizes de desenvolvimento para o futuro. A prática cotidiana prova que o consenso sobre a necessidade de qualificação representa uma abertura para a melhoria do orçamento setorial.
-          Caros amigos, a adoção de políticas descentralizadoras cumpre um papel essencial na formulação dos índices pretendidos. Por outro lado, a complexidade dos estudos efetuados não pode mais se dissociar das diretrizes de desenvolvimento para o futuro. A prática cotidiana prova que o consenso sobre a necessidade de qualificação representa uma abertura para a melhoria do orçamento setorial.
+          Biomédica com ênfase em Patologia Clínica, formada pela Universidade Feevale, Especialista em Biomedicina Estética pela ISEEC e Mestre em Virologia pela
+          Universidade Feevale, possui anos de experiência com estudos e pesquisa de doenças que afetam os seres humanos e os melhores métodos para resolução destas patologias. Além das titulações acadêmicas, a Dra Francini é a diretora executiva da Clínica de Biomedicina Estética Francini Pereira, onde atende seus pacientes empregando todo conhecimento adquirido, ouvindo com empatia suas queixas e realizando todos os tratamentos para alcançar os resultados tão esperados.
         </span>
       </ContentLeft>
       <ContentRight>

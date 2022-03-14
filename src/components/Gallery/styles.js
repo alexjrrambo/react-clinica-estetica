@@ -17,7 +17,6 @@ export const GalleryContainer = styled.div`
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-    text-transform: capitalize;
     text-align:center;
 
     :before {

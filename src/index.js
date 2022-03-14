@@ -5,10 +5,6 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 import App from './App';
 
-window.addEventListener('locationchange', () => {
-
-});
-
 let previousUrl = '';
 const observer = new MutationObserver(() => {
   if (location.href !== previousUrl) {

@@ -54,19 +54,13 @@ export default createGlobalStyle`
   h4 {
     margin: 1rem 0px;
     font-size: 1.5rem;
-
-
     margin: 2rem 0 0 0;
-
     font-size: 1.2rem;
     position: relative;
     font-weight: 300;
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
-
-
-    text-transform: capitalize;
     text-align:center;
   }
 
