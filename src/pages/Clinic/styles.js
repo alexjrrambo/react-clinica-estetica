@@ -2,13 +2,17 @@ import { CardContent } from '@material-ui/core';
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  background: #fff;
+  background: #E6E7E2;
 `;
 
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 11rem 7rem 0 7rem;
+  margin: 9rem 7rem 0 7rem;
+
+  h1 {
+    margin-top: 4rem;
+  }
 
   @media (max-width: 1250px) {
     //flex-direction: column;

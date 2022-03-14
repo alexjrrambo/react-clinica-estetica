@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const MainContainer = styled.section`
   //min-height: calc(100vh - 12rem);
-  margin: 11rem 5rem 0 5rem;
+  margin: 9rem 5rem 0 5rem;
 
 `;
 
