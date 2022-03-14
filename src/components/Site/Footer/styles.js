@@ -7,6 +7,10 @@ export const FooterContainer = styled.footer`
   font-size: 0.8rem;
   background: #59593D;
   color: #fff;
+
+  * {
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    }
 `;
 
 export const FooterContent = styled.div`

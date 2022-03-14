@@ -21,6 +21,10 @@ export const CardContentStyled = styled(CardContent)`
   align-items: center;
   justify-content: center;
   margin: 0 2rem;
+
+  h4 {
+    margin-top: 0;
+  }
 `;
 
 export const InstitutionalContent = styled.div`

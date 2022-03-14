@@ -1,20 +1,18 @@
 import { Card } from '@material-ui/core';
 import React from 'react';
 
-import LocalizationImage from '../../assets/localization.png';
 import {
   FbIcon,
   InstaIcon,
   MailIcon,
   PhoneIcon,
 } from '../../components/Icons/FontAwsome';
+import Localization from '../../components/Localization';
 import {
   CardContentStyled,
   Content,
   ContentLeft,
   ContentRight,
-  LocalizationContainer,
-  LocalizationContent,
   MainContainer,
 } from './styles';
 
@@ -24,7 +22,6 @@ const Contact = () => {
   return (
     <>
       <MainContainer>
-        <h1>Contato</h1>
         <Content>
           <ContentLeft>
             <div>
@@ -62,15 +59,7 @@ const Contact = () => {
           </ContentRight>
         </Content>
       </MainContainer>
-      <LocalizationContainer>
-        <LocalizationContent>
-          <h4>Localização</h4>
-          <span>Rua Sete de Setembro, nº 434, Centro, Sapiranga - RS <br />Centro Comercial e Residencial Vitale</span>
-          <button type="button" onClick={() => window.open('https://www.google.com.br/maps/place/R.+Sete+de+Setembro,+434+-+Centro,+Sapiranga+-+RS,+93800-244/@-29.6402445,-51.0081269,17.25z/data=!4m5!3m4!1s0x95193f65285678ff:0x8d92f69d63b0823b!8m2!3d-29.6403202!4d-51.0062202', '_blank')}>
-            <img src={LocalizationImage} alt="" />
-          </button>
-        </LocalizationContent>
-      </LocalizationContainer>
+      <Localization />
     </>
   );
 };

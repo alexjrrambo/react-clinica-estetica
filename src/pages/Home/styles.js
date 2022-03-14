@@ -125,34 +125,3 @@ export const ContentRight = styled.div`
     left: 0
   }
 `;
-
-export const LocalizationContainer = styled.div`
-  background: #E6E7E2;
-  padding: 1rem 10rem;
-`;
-
-export const LocalizationContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 35rem;
-
-  > h4 {
-    margin-bottom: 1rem;
-  }
-
-  > span {
-    text-align: center;
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
-  }
-
-  img {
-    height: 25rem;
-
-    :hover {
-      opacity: 1.5;
-      cursor: pointer;
-    }
-  }
-`;

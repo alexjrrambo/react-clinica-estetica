@@ -37,7 +37,6 @@ const Treatments = props => {
   return (
     <MainContainer>
       <ContentLeft>
-        <h1>Tratamentos</h1>
         <Paper sx={{ width: 250, maxWidth: '100%' }}>
           <MenuList>
             {TreatmentsArray.map((treatments, index) => (

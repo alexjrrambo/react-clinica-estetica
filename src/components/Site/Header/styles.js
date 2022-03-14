@@ -9,10 +9,14 @@ export const HeaderContainer = styled(AppBar)`
     position: fixed;
     background: #fff;
     color: #999;
-
+    // z-index: 99999;
     /* @media (max-width: 1250px) {
       display: none;
     } */
+
+    * {
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    }
   }
 `;
 

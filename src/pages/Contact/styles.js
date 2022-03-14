@@ -16,7 +16,7 @@ export const Content = styled.section`
   }
 
   h4 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     text-align: center;
   }
 
@@ -48,6 +48,10 @@ export const CardContentStyled = styled(CardContent)`
   justify-content: center;
   width: 20rem;
 
+  * {
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    }
+
   > div {
     margin-top: 0.7rem;
     display: flex;
@@ -57,36 +61,5 @@ export const CardContentStyled = styled(CardContent)`
 
   span {
     margin-left: 0.2rem;
-  }
-`;
-
-export const LocalizationContainer = styled.div`
-  background: #E6E7E2;
-  padding: 1rem 10rem;
-`;
-
-export const LocalizationContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 35rem;
-
-  > h4 {
-    margin-bottom: 1rem;
-  }
-
-  > span {
-    text-align: center;
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
-  }
-
-  img {
-    height: 25rem;
-
-    :hover {
-      opacity: 1.5;
-      cursor: pointer;
-    }
   }
 `;

@@ -16,6 +16,10 @@ export const MainContainer = styled.section`
 
 export const ContentLeft = styled.div`
   flex: 2;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
 `;
 
 export const ContentRight = styled.div`
