@@ -22,14 +22,17 @@ export const HeaderContainer = styled(AppBar)`
 
 export const HeaderContent = styled(Toolbar)`
   && {
-    height: ${props => (props.reducedSize === 'true' ? '4rem' : '9rem')};
+    height: ${props => (props.reducedSize ? '4rem' : '9rem')};
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 0.7rem;
+    -webkit-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
 
     img {
-      height: ${props => (props.reducedSize === 'true' ? '2rem' : '6rem')};
+      height: ${props => (props.reducedSize ? '2rem' : '6rem')};
     }
 
     > div {
