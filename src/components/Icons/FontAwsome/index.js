@@ -3,6 +3,7 @@ import React from 'react';
 import {
   FaArrowAltCircleDown,
   FaArrowAltCircleUp,
+  FaArrowDown,
   FaBars,
   FaChartPie,
   FaChevronLeft,
@@ -19,6 +20,10 @@ import {
 } from 'react-icons/fa';
 
 const defaultSize = 1;
+
+export const ArrowDownNormalIcon = ({ size }) => (
+  <FaArrowDown size={`${size || defaultSize}rem`} />
+);
 
 export const MailIcon = ({ size }) => (
   <FaMailBulk size={`${size || defaultSize}rem`} />

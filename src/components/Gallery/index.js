@@ -7,7 +7,7 @@ const Gallery = ({ imagesData, title }) => {
   console.log('Gallery');
 
   return (
-    <GalleryContainer>
+    <GalleryContainer id="gallery">
       <h4>{title}</h4>
       <DztImageGalleryComponent
         hideRotate

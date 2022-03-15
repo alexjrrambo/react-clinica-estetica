@@ -1,30 +1,67 @@
 import { CardContent } from '@material-ui/core';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 export const MainContainer = styled.section`
-  height: 33rem;
   display: flex;
   margin-top: 9rem;
-  background-color: #9C9F8C;
+  background-color: transparent;
 
-  @media (max-width: 1250px) {
-    flex-direction: column;
+  .HeroCarousel_wrapper__bnRvU {
+    height: calc(100vh - 9rem);
   }
+`;
+
+const Bounce = keyframes`
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+`;
+
+export const ButtonMore = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  animation: ${Bounce} 0.75s infinite alternate;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  background-color: transparent;
+  width: 1.5rem;
+  height: 2.25rem;
+  margin-bottom: -1rem;
 `;
 
 export const Content = styled.div`
   flex: 1;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  color: #fff;
+  height: 100%;
+  background:rgba(0,0,0,0.65);
+  padding: 2rem 4rem;
 
-  > div:first-child {
-    flex: 3;
-  }
+  > div {
+    :first-child {
+      width: 40rem;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 1.3rem;
+      letter-spacing: 2px;
 
-  > div:last-child {
-    flex: 4;
+    }
+
+    :last-child {
+      font-size: 0.8rem;
+    }
   }
 
   @media (max-width: 1250px) {
@@ -82,6 +119,10 @@ export const ActionsContent = styled.div`
     width: 15rem;
     background-color: #fff;
     margin-right: 1rem;
+
+    @media (max-width: 1200px) {
+      margin-bottom: 1rem;
+    }
   }
 
   button {
@@ -90,6 +131,10 @@ export const ActionsContent = styled.div`
     font-size: 0.75rem;
     font-weight: bold;
     width: 100%;
+  }
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
   }
 `;
 
