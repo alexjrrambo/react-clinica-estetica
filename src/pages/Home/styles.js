@@ -7,8 +7,10 @@ export const MainContainer = styled.section`
   margin-top: 9rem;
   background-color: #9C9F8C;
 
-  @media (max-width: 1250px) {
+  @media (max-width: 1024px) {
     flex-direction: column;
+    background-color: black;
+    margin-top: 4rem;
   }
 `;
 
@@ -27,8 +29,8 @@ export const Content = styled.div`
     flex: 4;
   }
 
-  @media (max-width: 1250px) {
-    //margin: 2rem;
+  @media (max-width: 1024px) {
+    display: none;
   }
 `;
 

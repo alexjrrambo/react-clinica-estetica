@@ -17,6 +17,14 @@ export const HeaderContainer = styled(AppBar)`
     * {
       font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     }
+
+    @media (max-width: 1024px) {
+      display: ${props => (props.mobile ? 'inital' : 'none')};
+    }
+
+    @media (min-width: 1024px) {
+      display: ${props => (props.mobile ? 'none' : 'initial')};
+    }
   }
 `;
 

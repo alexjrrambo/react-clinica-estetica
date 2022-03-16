@@ -20,6 +20,7 @@ import {
   HeaderContent,
   LinkStyled,
 } from './styles';
+import Mobile from './Mobile';
 
 const Header = props => {
   console.log(props);
@@ -140,6 +141,7 @@ const Header = props => {
           </HeaderActionMenu>
         </HeaderContent>
       </HeaderContainer>
+      <Mobile />
     </>
   );
 };
