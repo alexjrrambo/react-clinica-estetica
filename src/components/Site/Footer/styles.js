@@ -20,6 +20,10 @@ export const FooterContent = styled.div`
   > * {
     flex: 1;
   }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
 `;
 
 export const FooterLeft = styled.div`
@@ -46,6 +50,11 @@ export const FooterCenter = styled.div`
   > img {
     height: 10rem;
     margin-top: 2rem;
+
+    @media (max-width: 1024px) {
+      margin: 0;
+      height: 10rem;
+    }
   }
 `;
 
@@ -62,5 +71,15 @@ export const FooterDescription = styled.div`
     &:last-child {
       border: 0;
     }
+
+    @media (max-width: 1024px) {
+      border: none;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    height: auto;
+    flex-direction: column;
+    margin: 1rem;
   }
 `;
