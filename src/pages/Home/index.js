@@ -10,6 +10,7 @@ import {
   InformationContent,
   MainContainer,
 } from './styles';
+import MobileHome from './Mobile';
 import BackgroundImage from '../../assets/image-home2.jpg';
 import Gallery from '../../components/Gallery';
 import ImagesArray from '../../utils/ImagesArray';
@@ -52,6 +53,7 @@ const Home = () => {
           </ContentRight>
         </Content>
       </MainContainer>
+      <MobileHome />
       <Gallery imagesData={ImagesArray} title="Conheça nossa estrutura" />
       <Localization />
     </>

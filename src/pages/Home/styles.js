@@ -8,9 +8,7 @@ export const MainContainer = styled.section`
   background-color: #9C9F8C;
 
   @media (max-width: 1024px) {
-    flex-direction: column;
-    background-color: black;
-    margin-top: 4rem;
+    display: none;
   }
 `;
 

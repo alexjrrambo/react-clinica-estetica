@@ -3,6 +3,11 @@ import styled from 'styled-components';
 export const LocalizationContainer = styled.div`
   background: #E6E7E2;
   padding: 0 10rem;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    padding: 0;
+  }
 `;
 
 export const LocalizationContent = styled.div`
@@ -31,5 +36,14 @@ export const LocalizationContent = styled.div`
       opacity: 0.8;
       cursor: pointer;
     }
+
+    @media (max-width: 1024px) {
+      height: 15rem;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    height: 25rem;
   }
 `;
