@@ -6,7 +6,7 @@ import {
   MenuIcon,
   PhoneIcon,
 } from '../../../Icons/FontAwsome';
-import logoTransparent from '../../../../assets/logoTransparent.png';
+import logoTransparent from '../../../../assets/logo-mobile.png';
 import TreatmentsArray from '../../../../utils/TreatmentsArray';
 import {
   HeaderContainer,

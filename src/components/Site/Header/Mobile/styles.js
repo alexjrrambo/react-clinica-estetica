@@ -22,6 +22,12 @@ export const SidebarContent = styled.div`
     display: ${props => (props.visible ? 'initial' : 'none')};
   }
 
+  &&&& {
+  .side-navigation-panel-select-option-selected, .side-navigation-panel-select-inner-option-selected {
+    border-color: #59593D;
+  }
+}
+
 `;
 
 export const ContactInformation = styled.div`
@@ -58,7 +64,7 @@ export const HeaderContentMobile = styled(Toolbar)`
     transition: all 0.2s ease 0s;
 
     img {
-      height: ${props => (props.reducedSize ? '2rem' : '6rem')};
+      height: ${props => (props.reducedSize ? '1.8rem' : '6rem')};
     }
 
     > div {
