@@ -5,6 +5,9 @@ export const MainContainer = styled.section`
   //min-height: calc(100vh - 12rem);
   margin: 9rem 5rem 0 5rem;
 
+  @media (max-width: 1024px) {
+    margin: 4rem 0 1rem 0;
+  }
 `;
 
 export const Content = styled.section`
@@ -13,6 +16,10 @@ export const Content = styled.section`
 
   > div {
     margin: 2rem;
+
+    @media (max-width: 1024px) {
+      margin: 0 0 1rem 0;
+    }
   }
 
   h4 {
@@ -20,8 +27,9 @@ export const Content = styled.section`
     text-align: center;
   }
 
-  @media (max-width: 1250px) {
-    //flex-direction: column;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
   }
 `;
 
@@ -31,6 +39,10 @@ export const ContentLeft = styled.div`
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+
+  @media (max-width: 1024px) {
+    align-items: center;
+  }
 `;
 
 export const ContentRight = styled.div`

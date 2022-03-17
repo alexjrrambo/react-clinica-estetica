@@ -9,8 +9,9 @@ export const MainContainer = styled.section`
     margin: 2rem;
   }
 
-  @media (max-width: 1250px) {
-    //flex-direction: column;
+  @media (max-width: 1024px) {
+    margin: 2rem 0;
+    flex-direction: column;
   }
 `;
 

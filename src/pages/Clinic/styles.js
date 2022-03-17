@@ -14,8 +14,9 @@ export const Content = styled.div`
     margin-top: 4rem;
   }
 
-  @media (max-width: 1250px) {
-    //flex-direction: column;
+  @media (max-width: 1024px) {
+    margin: 2rem 1rem;
+    flex-direction: column;
   }
 `;
 
@@ -40,6 +41,11 @@ export const InstitutionalContent = styled.div`
   > div {
     margin-bottom: 2rem;
     width: 40rem;
+
+    @media (max-width: 1024px) {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
   }
 
   span {
@@ -47,7 +53,7 @@ export const InstitutionalContent = styled.div`
     margin-top: 0.5rem;
   }
 
-  @media (max-width: 1250px) {
-    //flex-direction: column;
+  @media (max-width: 1024px) {
+    margin: 2rem 0 0 0;
   }
 `;

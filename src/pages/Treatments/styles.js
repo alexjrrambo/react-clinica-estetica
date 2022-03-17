@@ -10,13 +10,18 @@ export const MainContainer = styled.section`
     margin: 2rem;
   }
 
-  @media (max-width: 1250px) {
-    //flex-direction: column;
+  @media (max-width: 1024px) {
+    margin: 4rem 0;
+    flex-direction: column;
   }
 `;
 
 export const ContentLeft = styled.div`
   flex: 1;
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 `;
 
 export const ContentRight = styled.div`
@@ -26,6 +31,10 @@ export const ContentRight = styled.div`
 
   img {
     height: 15rem;
+  }
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
   }
 `;
 
