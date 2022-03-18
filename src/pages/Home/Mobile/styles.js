@@ -31,7 +31,7 @@ export const ButtonMore = styled.a`
   animation: ${Bounce} 0.75s infinite alternate;
   position: absolute;
   left: 50%;
-  bottom: 20px;
+  bottom: 80px;
   transform: translateX(-50%);
   border: 2px solid white;
   border-radius: 10px;
@@ -46,12 +46,12 @@ export const Content = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   color: #fff;
   height: 100%;
   background:rgba(0,0,0,0.65);
-  padding: 2rem 4rem;
+  padding: 5rem 4rem;
 
   > div {
     :first-child {

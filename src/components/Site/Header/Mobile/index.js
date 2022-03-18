@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Navigation } from 'react-minimal-side-navigation';
 import {
   FbIcon,
@@ -20,6 +20,19 @@ const Mobile = props => {
 
   const [sidebarIsVisible, setSidebarIsVisible] = useState(false);
 
+  useEffect(() => {
+    const onOutsideClick = e => {
+      if (!document.getElementById('sidebar-content').contains(e.target) && sidebarIsVisible) {
+        setSidebarIsVisible(false);
+      }
+    };
+
+    window.removeEventListener('click', onOutsideClick);
+    window.addEventListener('click', onOutsideClick);
+
+    return () => window.removeEventListener('click', onOutsideClick);
+  }, [sidebarIsVisible]);
+
   return (
     <>
       <HeaderContainer mobile>
@@ -33,12 +46,11 @@ const Mobile = props => {
           <div />
         </HeaderContentMobile>
       </HeaderContainer>
-      <SidebarContent visible={sidebarIsVisible}>
+      <SidebarContent id="sidebar-content" visible={sidebarIsVisible}>
         <Navigation
           activeItemId="/management/members"
           onSelect={({ itemId }) => {
             if (itemId !== '/tratamentos' && itemId !== '/institucional') {
-              console.log(itemId);
               setSidebarIsVisible(false);
               history.push(itemId);
             }
