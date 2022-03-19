@@ -7,6 +7,7 @@ export const MainContainer = styled.section`
   background-color: transparent;
   .HeroCarousel_wrapper__bnRvU {
     height: calc(100vh - 4rem);
+    min-height: 40rem;
   }
 
   @media (min-width: 1024px) {
@@ -31,7 +32,7 @@ export const ButtonMore = styled.a`
   animation: ${Bounce} 0.75s infinite alternate;
   position: absolute;
   left: 50%;
-  bottom: 80px;
+  bottom: 20px;
   transform: translateX(-50%);
   border: 2px solid white;
   border-radius: 10px;
