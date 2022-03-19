@@ -2,6 +2,7 @@ import React from 'react';
 
 import FooterLogo from '../../../assets/logo-footer.jpg';
 import {
+  emailContact,
   instagramLink, openInstagramExternal, openWhatsAppExternal, whatsAppLink,
 } from '../../../utils/SocialMediaLinks';
 import {
@@ -36,10 +37,16 @@ const Footer = () => (
             <span onClick={openInstagramExternal}>@drafrancinipereira</span>
           </div>
         </a>
-        <div>
-          <MailIcon />
-          <span>contato@francinipereira.com</span>
-        </div>
+        <a
+          href={emailContact}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div>
+            <MailIcon />
+            <span>contato@francinipereira.com</span>
+          </div>
+        </a>
         <a
           href={whatsAppLink}
           target="_blank"

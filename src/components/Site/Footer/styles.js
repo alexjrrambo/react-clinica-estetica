@@ -28,9 +28,10 @@ export const FooterContent = styled.div`
 
 export const FooterLeft = styled.div`
   margin: 2rem;
+  font-size: 1.1rem;
 
   div {
-    margin-top: 0.7rem;
+    margin-top: 0.9rem;
     display: flex;
     align-items: center;
     cursor: pointer;
