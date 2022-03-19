@@ -67,16 +67,16 @@ export const HeaderContactMenu = styled.div`
   display: flex;
   flex-direction: column;
 
-  > div {
+   div {
     display: flex;
     margin: 0.5rem 0rem;
 
-    > svg {
+    svg {
       margin-right: 0.2rem;
     }
 
     :last-child {
-      > a {
+      a {
         margin-right: 0.5rem;
       }
     }

@@ -64,7 +64,7 @@ export const CardContentStyled = styled(CardContent)`
       font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     }
 
-  > div {
+  div {
     margin-top: 0.7rem;
     display: flex;
     align-items: center;

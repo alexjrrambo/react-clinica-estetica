@@ -29,7 +29,7 @@ export const FooterContent = styled.div`
 export const FooterLeft = styled.div`
   margin: 2rem;
 
-  > div {
+  div {
     margin-top: 0.7rem;
     display: flex;
     align-items: center;

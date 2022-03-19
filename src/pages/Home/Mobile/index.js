@@ -12,6 +12,7 @@ import {
   MainContainer,
 } from './styles';
 import { ArrowDownNormalIcon } from '../../../components/Icons/FontAwsome';
+import { openWhatsAppExternal } from '../../../utils/SocialMediaLinks';
 
 const BgSlide = ({ seed, ComponentContent }) => (
   <>
@@ -65,7 +66,13 @@ const HomeMobile = () => {
                 <Card>
                   <CardContentStyled>
                     <span>Você também pode marcar sua consulta através do nosso WhatsApp</span>
-                    <Button variant="contained" color="primary">Agendar pelo WhatsApp</Button>
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      onClick={openWhatsAppExternal}
+                    >
+                      Agendar pelo WhatsApp
+                    </Button>
                   </CardContentStyled>
                 </Card>
               </ActionsContent>

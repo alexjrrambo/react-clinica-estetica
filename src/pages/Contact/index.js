@@ -8,6 +8,7 @@ import {
   PhoneIcon,
 } from '../../components/Icons/FontAwsome';
 import Localization from '../../components/Localization';
+import { instagramLink, whatsAppLink } from '../../utils/SocialMediaLinks';
 import {
   CardContentStyled,
   Content,
@@ -32,10 +33,16 @@ const Contact = () => {
                     <FbIcon />
                     <span>/drafrancinipereira</span>
                   </div>
-                  <div>
-                    <InstaIcon />
-                    <span>@drafrancinipereira</span>
-                  </div>
+                  <a
+                    href={instagramLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div>
+                      <InstaIcon />
+                      <span>@drafrancinipereira</span>
+                    </div>
+                  </a>
                 </CardContentStyled>
               </Card>
             </div>
@@ -49,10 +56,16 @@ const Contact = () => {
                     <MailIcon />
                     <span>contato@francinipereira.com</span>
                   </div>
-                  <div>
-                    <PhoneIcon size={0.8} />
-                    <span>(51) 99826-7185</span>
-                  </div>
+                  <a
+                    href={whatsAppLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div>
+                      <PhoneIcon size={0.8} />
+                      <span>(51) 99826-7185</span>
+                    </div>
+                  </a>
                 </CardContentStyled>
               </Card>
             </div>

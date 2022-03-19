@@ -15,6 +15,7 @@ import BackgroundImage from '../../assets/image-home2.jpg';
 import Gallery from '../../components/Gallery';
 import ImagesArray from '../../utils/ImagesArray';
 import Localization from '../../components/Localization';
+import { openWhatsAppExternal } from '../../utils/SocialMediaLinks';
 
 const Home = () => {
   console.log('Home');
@@ -39,7 +40,13 @@ const Home = () => {
                 <Card>
                   <CardContentStyled>
                     <span>Você também pode marcar sua consulta através do nosso WhatsApp</span>
-                    <Button variant="contained" color="primary">Agendar pelo WhatsApp</Button>
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      onClick={openWhatsAppExternal}
+                    >
+                      Agendar pelo WhatsApp
+                    </Button>
                   </CardContentStyled>
                 </Card>
               </ActionsContent>

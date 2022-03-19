@@ -21,6 +21,7 @@ import {
   LinkStyled,
 } from './styles';
 import Mobile from './Mobile';
+import { instagramLink, whatsAppLink } from '../../../utils/SocialMediaLinks';
 
 const Header = props => {
   console.log(props);
@@ -58,10 +59,16 @@ const Header = props => {
       <HeaderContainer>
         <HeaderContent reducedSize={reducedSize}>
           <HeaderContactMenu>
-            <div>
-              <PhoneIcon size={0.75} />
-              <span>(51) 99826-7185 - Segunda à Sexta das 8:30h às 19h</span>
-            </div>
+            <a
+              href={whatsAppLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div>
+                <PhoneIcon size={0.75} />
+                <span>(51) 99826-7185 - Segunda à Sexta das 8:30h às 19h</span>
+              </div>
+            </a>
             <div>
               <a
                 href="https://google.com"
@@ -71,7 +78,7 @@ const Header = props => {
                 <FbIcon />
               </a>
               <a
-                href="https://google.com"
+                href={instagramLink}
                 target="_blank"
                 rel="noreferrer"
               >

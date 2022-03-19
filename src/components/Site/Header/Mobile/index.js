@@ -4,7 +4,6 @@ import {
   FbIcon,
   InstaIcon,
   MenuIcon,
-  PhoneIcon,
 } from '../../../Icons/FontAwsome';
 import logoTransparent from '../../../../assets/logo-mobile.png';
 import TreatmentsArray from '../../../../utils/TreatmentsArray';
@@ -14,6 +13,7 @@ import {
 import { ContactInformation, HeaderContentMobile, SidebarContent } from './styles';
 import { history } from '../../../../routes';
 import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
+import { instagramLink, whatsAppLink } from '../../../../utils/SocialMediaLinks';
 
 const Mobile = props => {
   console.log(props);
@@ -90,8 +90,13 @@ const Mobile = props => {
         />
         <ContactInformation>
           <div>
-            <PhoneIcon size={0.75} />
-            <span>(51) 99826-7185</span>
+            <a
+              href={whatsAppLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>(51) 99826-7185</span>
+            </a>
           </div>
           <div>
             Segunda à Sexta das 8:30h às 19h
@@ -105,7 +110,7 @@ const Mobile = props => {
               <FbIcon size={2.5} />
             </a>
             <a
-              href="https://google.com"
+              href={instagramLink}
               target="_blank"
               rel="noreferrer"
             >
