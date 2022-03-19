@@ -1,14 +1,24 @@
 import { CardContent } from '@material-ui/core';
 import styled, { keyframes } from 'styled-components';
+import HeroCarousel from 'react-hero-carousel';
+
+export const HeroImagesCarousel = styled(HeroCarousel)`
+`;
 
 export const MainContainer = styled.section`
   display: flex;
   margin-top: 4rem;
   background-color: transparent;
-  .HeroCarousel_wrapper__bnRvU {
-    height: calc(100vh - 4rem);
-    min-height: 40rem;
-  }
+
+  .HeroCarousel_wrapper__2J_Tt {
+      height: calc(100vh - 4rem);
+      min-height: 40rem;
+    }
+
+    .HeroCarousel_wrapper__bnRvU {
+      height: calc(100vh - 4rem);
+      min-height: 40rem;
+    }
 
   @media (min-width: 1024px) {
     display: none;

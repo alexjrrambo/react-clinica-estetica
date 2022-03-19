@@ -39,6 +39,7 @@ export const LocalizationContent = styled.div`
 
     @media (max-width: 1024px) {
       height: 15rem;
+      min-height: 15rem;
     }
   }
 

@@ -1,13 +1,13 @@
 /* eslint-disable no-restricted-globals */
 import React from 'react';
 import { Button, Card } from '@material-ui/core';
-import HeroCarousel from 'react-hero-carousel';
 
 import {
   ActionsContent,
   ButtonMore,
   CardContentStyled,
   Content,
+  HeroImagesCarousel,
   InformationContent,
   MainContainer,
 } from './styles';
@@ -34,9 +34,9 @@ const BgSlide = ({ seed, ComponentContent }) => (
 );
 
 export const CustomInterval = ({ ComponentContent }) => (
-  <HeroCarousel interval={5000}>
+  <HeroImagesCarousel interval={5000}>
     <BgSlide seed="1" ComponentContent={ComponentContent} />
-  </HeroCarousel>
+  </HeroImagesCarousel>
 );
 
 const HomeMobile = () => {
