@@ -1,6 +1,6 @@
 /* eslint-disable no-restricted-globals */
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { hydrate, render } from 'react-dom';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 import App from './App';
@@ -23,4 +23,9 @@ const theme = createMuiTheme({
   },
 });
 
-ReactDOM.render(<MuiThemeProvider theme={theme}><App /></MuiThemeProvider>, document.getElementById('root'));
+const rootElement = document.getElementById('root');
+if (rootElement.hasChildNodes()) {
+  hydrate(<MuiThemeProvider theme={theme}><App /></MuiThemeProvider>, rootElement);
+} else {
+  render(<MuiThemeProvider theme={theme}><App /></MuiThemeProvider>, rootElement);
+}

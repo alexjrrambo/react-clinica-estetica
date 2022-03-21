@@ -23,6 +23,21 @@ import {
 import Mobile from './Mobile';
 import { instagramLink, whatsAppLink } from '../../../utils/SocialMediaLinks';
 
+const LinksReadyToCrawler = () => (
+  <div style={{
+    display: 'hidden', position: 'absolute', height: 0, width: 0,
+  }}
+  >
+    <LinkStyled to="/" />
+    <LinkStyled to="/sobre" />
+    <LinkStyled to="/clinica" />
+    <LinkStyled to="/contato" />
+    {TreatmentsArray.map(treatments => (
+      <LinkStyled key={treatments.key} to={`/tratamentos/${treatments.key}`} />
+    ))}
+  </div>
+);
+
 const Header = props => {
   console.log(props);
   const [tratamentosAnchorEl, setTratamentosAnchorEl] = useState(null);
@@ -56,6 +71,7 @@ const Header = props => {
 
   return (
     <>
+      <LinksReadyToCrawler />
       <HeaderContainer>
         <HeaderContent reducedSize={reducedSize}>
           <HeaderContactMenu>
