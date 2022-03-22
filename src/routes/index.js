@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 
 import Home from '../pages/Home';
@@ -7,36 +7,52 @@ import About from '../pages/About';
 import Clinic from '../pages/Clinic';
 import Treatments from '../pages/Treatments';
 import Contact from '../pages/Contact';
+import { CustomRoute } from './CustomRoute';
 
 export const history = createBrowserHistory();
 
 export const PublicRoutes = () => (
   <Switch>
-    <Route
+    <CustomRoute
       exact
       path="/home"
       render={Home}
+      title="Francini Pereira - Biomedicina Estética"
+      content="Desrição da Home"
     />
-    <Route
+    <CustomRoute
       exact
       path="/sobre"
       render={About}
+      title="Sobre a Dra Francini Pereira"
+      content="Desrição Sobre"
     />
-    <Route
+    <CustomRoute
       exact
       path="/clinica"
       render={Clinic}
+      title="Sobre a Clínica"
+      content="Desrição da Clinica"
     />
-    <Route
+    <CustomRoute
       exact
       path="/tratamentos/:treatment"
       render={props => <Treatments {...props} />}
+      title="Tratamentos"
+      content="Desrição da Tratamentos"
     />
-    <Route
+    <CustomRoute
       exact
       path="/contato"
       render={props => <Contact {...props} />}
+      title="Contato"
+      content="Desrição da Contato"
     />
-    <Route path="/" component={Home} />
+    <CustomRoute
+      path="/"
+      component={Home}
+      title="Francini Pereira - Biomedicina Estética"
+      content="Teste para SEO"
+    />
   </Switch>
 );
