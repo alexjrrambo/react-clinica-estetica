@@ -7,6 +7,10 @@ export const MainContainer = styled.section`
   margin-top: 9rem;
   background-color: #9C9F8C;
 
+  @media (max-width: 1200px) {
+      height: 28rem;
+    }
+
   @media (max-width: 1024px) {
     display: none;
   }
@@ -24,7 +28,7 @@ export const Content = styled.div`
   }
 
   > div:last-child {
-    flex: 4;
+    flex: 1;
   }
 
   @media (max-width: 1024px) {
@@ -36,7 +40,7 @@ export const ContentLeft = styled.div`
   color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 
   > div {
@@ -99,6 +103,8 @@ export const ContentRight = styled.div`
 
   .image-wrapper {
     flex: 1;
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -107,6 +113,22 @@ export const ContentRight = styled.div`
 
   .image-wrapper > img {
     height: 52rem;
+
+    @media (max-width: 1500px) {
+      height: 42rem;
+    }
+
+    @media (max-width: 1350px) {
+      height: 37rem;
+    }
+
+    @media (max-width: 1250px) {
+      height: 33rem;
+    }
+
+    @media (max-width: 1200px) {
+      height: 28rem;
+    }
   }
 
   .cut {
