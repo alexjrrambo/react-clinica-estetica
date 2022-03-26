@@ -26,7 +26,9 @@ const Home = () => {
         <Content>
           <ContentLeft>
             <div>
-              <span>Caros amigos, a adoção de políticas descentralizadoras cumpre um papel essencial na formulação dos índices pretendidos. Por outro lado, a complexidade dos estudos efetuados não pode mais se dissociar das diretrizes de desenvolvimento para o futuro. A prática cotidiana prova que o consenso sobre a necessidade de qualificação representa uma abertura para a melhoria do orçamento setorial.</span>
+              <span>Nos dedicamos em prevenir e tratar as alterações estéticas do maior órgão do corpo humano, a pele, buscando amenizar e prevenir os sinais do tempo. Sabemos que não se trata apenas de procedimentos estéticos ou de beleza, mas de melhora da autoestima e aumento da saúde física e mental.
+                <br /><br />Estudamos a face e corpo de cada indivíduo e após esta etapa indicamos as melhores técnicas para solucionar as suas queixas e promover a harmonização da região analisada.
+              </span>
             </div>
             <InformationContent>
               <h3>Agende sua consulta</h3>

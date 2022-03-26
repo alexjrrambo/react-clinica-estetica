@@ -13,13 +13,14 @@ import {
 } from './styles';
 import { ArrowDownNormalIcon } from '../../../components/Icons/FontAwsome';
 import { openWhatsAppExternal } from '../../../utils/SocialMediaLinks';
+import MobileBackground from '../../../assets/mobileBackground.jpg';
 
-const BgSlide = ({ seed, ComponentContent }) => (
+const BgSlide = ({ ComponentContent }) => (
   <>
     <ComponentContent />
     <picture
       style={{
-        backgroundImage: `url(https://placem.at/places?w=1920&h=1080&random=${seed}&txt=)`,
+        backgroundImage: `url(${MobileBackground})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -36,7 +37,7 @@ const BgSlide = ({ seed, ComponentContent }) => (
 
 export const CustomInterval = ({ ComponentContent }) => (
   <HeroImagesCarousel interval={5000}>
-    <BgSlide seed="1" ComponentContent={ComponentContent} />
+    <BgSlide ComponentContent={ComponentContent} />
   </HeroImagesCarousel>
 );
 
@@ -49,7 +50,7 @@ const HomeMobile = () => {
         <CustomInterval ComponentContent={() => (
           <Content>
             <div>
-              <span>Caros amigos, a adoção de políticas descentralizadoras cumpre um papel essencial na formulação dos índices pretendidos.</span>
+              <span>Nos dedicamos em prevenir e tratar as alterações estéticas do maior órgão do corpo humano, a pele, buscando amenizar e prevenir os sinais do tempo, além de transformar seu sonho em realidade.</span>
             </div>
             <ButtonMore onClick={() => window.scrollTo({ top: screen.height - 60, behavior: 'smooth' })}>
               <ArrowDownNormalIcon />

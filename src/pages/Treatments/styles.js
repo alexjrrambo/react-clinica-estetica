@@ -25,12 +25,17 @@ export const ContentLeft = styled.div`
 `;
 
 export const ContentRight = styled.div`
-  height: 20rem;
+  //height: 20rem;
   flex: 3;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 
   img {
-    height: 15rem;
+    margin-top: 2rem;
+    height: 20rem;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   }
 
   @media (max-width: 1024px) {
@@ -50,7 +55,30 @@ export const InformationContent = styled.div`
   flex-direction: column;
   align-items: center;
 
-  h4 {
-    margin: 2rem 0 1rem 0;
+  p {
+    line-height: 30px;
+  }
+
+  h1 {
+    margin: 2rem 0 3rem 0;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 300;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    text-align:center;
+
+    :before {
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 80px;
+      height: 2px;
+      content: "";
+      background-color: #59593D;
+      left:50%;
+      margin-left:-40px;
+    }
   }
 `;

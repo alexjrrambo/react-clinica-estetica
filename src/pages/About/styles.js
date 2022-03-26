@@ -24,6 +24,10 @@ export const MainContent = styled.div`
 export const ContentLeft = styled.div`
   flex: 2;
 
+  span {
+    line-height: 25px;
+  }
+
   h1 {
     margin-bottom: 2rem;
   }

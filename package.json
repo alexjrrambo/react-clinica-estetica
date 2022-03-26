@@ -15,6 +15,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.0",
     "history": "^4.10.1",
+    "html-react-parser": "^1.4.9",
     "moment": "^2.29.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.0",

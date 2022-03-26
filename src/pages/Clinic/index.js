@@ -36,10 +36,10 @@ const Clinic = () => {
             <CardContentStyled>
               <h4>Valores</h4>
               <span>
-                Ética no atendimento e serviços prestados <br />
-                Responsabilidade com a saúde humana <br />
-                Qualificação profissional <br />
-                Humanização nos relacionamentos <br />
+                - Ética no atendimento e serviços prestados<br />
+                - Responsabilidade com a saúde humana <br />
+                - Qualificação profissional <br />
+                - Humanização nos relacionamentos <br />
               </span>
             </CardContentStyled>
           </Card>

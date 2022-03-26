@@ -6,6 +6,7 @@ import {
   Paper,
 } from '@material-ui/core';
 import React, { useEffect, useState } from 'react';
+import parse from 'html-react-parser';
 
 import TreatmentsArray from '../../utils/TreatmentsArray';
 import {
@@ -53,13 +54,15 @@ const Treatments = props => {
         </Paper>
       </ContentLeft>
       <ContentRight>
-        <img src={treatment.image} alt="" />
         <InformationContent>
-          <h4>{treatment.label}</h4>
+          <h1>{treatment.label}</h1>
           <p>
-            {treatment.description}
+            {parse(treatment.description)}
           </p>
         </InformationContent>
+        <div>
+          <img src={treatment.image} alt="" />
+        </div>
       </ContentRight>
     </MainContainer>
   );

@@ -62,7 +62,7 @@ export const Content = styled.div`
   color: #fff;
   height: 100%;
   background:rgba(0,0,0,0.65);
-  padding: 5rem 4rem;
+  padding: 2rem 4rem;
 
   > div {
     :first-child {
