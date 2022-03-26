@@ -41,7 +41,7 @@ const Mobile = props => {
             <MenuIcon size={1.5} />
           </div>
           <div>
-            <img src={logoTransparent} alt="Logo Quantify" />
+            <img src={logoTransparent} alt="Logo clinica" />
           </div>
           <div />
         </HeaderContentMobile>

@@ -104,9 +104,9 @@ const Header = props => {
           </HeaderContactMenu>
           <div>
             {reducedSize ? (
-              <img src={logoTransparent} alt="Logo Quantify" />
+              <img src={logoTransparent} alt="Logo clinica" />
             ) : (
-              <img src={logoGreenTransparent} alt="Logo Quantify" />
+              <img src={logoGreenTransparent} alt="Logo clinica" />
             )}
           </div>
           <HeaderActionMenu>
