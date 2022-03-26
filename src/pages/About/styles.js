@@ -1,6 +1,12 @@
 import styled from 'styled-components';
 
 export const MainContainer = styled.section`
+  background: #cccac7;
+  min-height: calc(100vh - 12rem);
+`;
+
+export const MainContent = styled.div`
+  background: #cccac7;
   min-height: calc(100vh - 12rem);
   display: flex;
   margin: 9rem 5rem 0 5rem;
@@ -24,7 +30,7 @@ export const ContentLeft = styled.div`
 `;
 
 export const ContentRight = styled.div`
-  height: 20rem;
+  height: 25rem;
 
   .image-wrapper {
     flex: 1;
@@ -44,13 +50,13 @@ export const ContentRight = styled.div`
     display: block;
     top: 0; bottom: 0;
     position: absolute;
-    width: 400px
+    width: 500px
   }
 
   .left {
-    -webkit-transform: skew(-80deg) translateX(1000px);
-        -ms-transform: skew(-80deg) translateX(1000px);
-            transform: skew(-80deg) translateX(1000px);
+    -webkit-transform: skew(-80deg) translateX(1260px);
+        -ms-transform: skew(-80deg) translateX(1260px);
+            transform: skew(-80deg) translateX(1260px);
     right: 0;
   }
 `;

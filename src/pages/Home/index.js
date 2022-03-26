@@ -11,7 +11,7 @@ import {
   MainContainer,
 } from './styles';
 import MobileHome from './Mobile';
-import BackgroundImage from '../../assets/photoHome.jpg';
+import BackgroundImage from '../../assets/photoHome.png';
 import Gallery from '../../components/Gallery';
 import ImagesArray from '../../utils/ImagesArray';
 import Localization from '../../components/Localization';
