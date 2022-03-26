@@ -106,8 +106,7 @@ export const ContentRight = styled.div`
   }
 
   .image-wrapper > img {
-    width: 100%;
-    height: 100%;
+    height: 52rem;
   }
 
   .cut {
