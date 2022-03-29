@@ -8,8 +8,6 @@ import {
 } from './styles';
 
 const Localization = () => {
-  console.log('Localization');
-
   return (
     <LocalizationContainer>
       <LocalizationContent>

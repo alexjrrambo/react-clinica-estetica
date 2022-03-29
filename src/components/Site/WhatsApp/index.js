@@ -7,8 +7,6 @@ import {
 } from './styles';
 
 const WhatsApp = () => {
-  console.log('WhatsApp');
-
   return (
     <Container>
       <img

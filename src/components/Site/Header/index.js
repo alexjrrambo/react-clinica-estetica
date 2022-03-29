@@ -38,8 +38,7 @@ const LinksReadyToCrawler = () => (
   </div>
 );
 
-const Header = props => {
-  console.log(props);
+const Header = () => {
   const [tratamentosAnchorEl, setTratamentosAnchorEl] = useState(null);
   const [institucionalAnchorEl, setInstitucionalAnchorEl] = useState(null);
   const [reducedSize, setReducedSize] = useState(false);
@@ -48,7 +47,6 @@ const Header = props => {
 
   useEffect(() => {
     const onScroll = () => setReducedSize(window.pageYOffset > 50);
-    console.log(window.pageYOffset > 50);
 
     window.removeEventListener('scroll', onScroll);
     window.addEventListener('scroll', onScroll, { passive: true });

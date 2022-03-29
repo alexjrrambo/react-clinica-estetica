@@ -42,8 +42,6 @@ export const CustomInterval = ({ ComponentContent }) => (
 );
 
 const HomeMobile = () => {
-  console.log('Home');
-
   return (
     <>
       <MainContainer>

@@ -6,8 +6,6 @@ import {
 } from './styles';
 
 const About = () => {
-  console.log('Sobre');
-
   return (
     <MainContainer>
       <MainContent>

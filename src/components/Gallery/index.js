@@ -4,8 +4,6 @@ import DztImageGalleryComponent from 'reactjs-image-gallery';
 import { GalleryContainer } from './styles';
 
 const Gallery = ({ imagesData, title }) => {
-  console.log('Gallery');
-
   return (
     <GalleryContainer>
       <h4>{title}</h4>

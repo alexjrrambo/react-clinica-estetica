@@ -11,8 +11,6 @@ import {
 } from './styles';
 
 const Clinic = () => {
-  console.log('Clinica');
-
   return (
     <Container>
       <Content>

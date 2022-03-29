@@ -15,9 +15,7 @@ import { history } from '../../../../routes';
 import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
 import { facebookLink, instagramLink, whatsAppLink } from '../../../../utils/SocialMediaLinks';
 
-const Mobile = props => {
-  console.log(props);
-
+const Mobile = () => {
   const [sidebarIsVisible, setSidebarIsVisible] = useState(false);
 
   useEffect(() => {

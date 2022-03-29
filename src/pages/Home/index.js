@@ -18,8 +18,6 @@ import Localization from '../../components/Localization';
 import { openWhatsAppExternal } from '../../utils/SocialMediaLinks';
 
 const Home = () => {
-  console.log('Home');
-
   return (
     <>
       <MainContainer>

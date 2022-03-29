@@ -23,8 +23,6 @@ import {
 } from './styles';
 
 const Contact = () => {
-  console.log('Contato');
-
   return (
     <>
       <MainContainer>
