@@ -15,7 +15,7 @@ import BackgroundImage from '../../assets/photoHome.png';
 import Gallery from '../../components/Gallery';
 import ImagesArray from '../../utils/ImagesArray';
 import Localization from '../../components/Localization';
-import { onlineScheduleLink, openWhatsAppExternal } from '../../utils/SocialMediaLinks';
+import { openOnlineScheduleExternal, openWhatsAppExternal } from '../../utils/SocialMediaLinks';
 
 const Home = () => {
   return (
@@ -37,7 +37,7 @@ const Home = () => {
                     <Button
                       variant="contained"
                       color="primary"
-                      onClick={onlineScheduleLink}
+                      onClick={openOnlineScheduleExternal}
                     >
                       Agendar online
                     </Button>

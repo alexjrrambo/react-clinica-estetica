@@ -12,7 +12,7 @@ import {
   MainContainer,
 } from './styles';
 import { ArrowDownNormalIcon } from '../../../components/Icons/FontAwsome';
-import { onlineScheduleLink, openWhatsAppExternal } from '../../../utils/SocialMediaLinks';
+import { openOnlineScheduleExternal, openWhatsAppExternal } from '../../../utils/SocialMediaLinks';
 import MobileBackground from '../../../assets/mobileBackground.jpg';
 
 const BgSlide = ({ ComponentContent }) => (
@@ -62,7 +62,7 @@ const HomeMobile = () => {
                     <Button
                       variant="contained"
                       color="primary"
-                      onClick={onlineScheduleLink}
+                      onClick={openOnlineScheduleExternal}
                     >
                       Agendar online
                     </Button>
