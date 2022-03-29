@@ -36,6 +36,10 @@ export const ContentRight = styled.div`
     height: 20rem;
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    @media (max-width: 1024px) {
+      height: 13rem;
+    }
   }
 
   @media (max-width: 1024px) {
@@ -56,6 +60,7 @@ export const InformationContent = styled.div`
   align-items: center;
 
   p {
+    text-align: justify;
     line-height: 30px;
   }
 

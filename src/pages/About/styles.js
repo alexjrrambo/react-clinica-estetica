@@ -44,13 +44,8 @@ export const ContentRight = styled.div`
     position: relative;
 
     @media (max-width: 1024px) {
-      height: 25rem;
-      width: 25rem;
-
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-
+      height: 20rem;
+      width: 20rem;
     }
   }
 

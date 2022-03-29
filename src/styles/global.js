@@ -25,7 +25,7 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased !important;
     font-family: Helvetica, sans-serif;
     font-size: 25px;
-    color: #011721;
+    color: #000;
     background: #fff;
   }
 

@@ -15,7 +15,7 @@ export const Content = styled.div`
   }
 
   @media (max-width: 1024px) {
-    margin: 2rem 1rem;
+    margin: 2rem 1rem 0 1rem;
     flex-direction: column;
   }
 `;
