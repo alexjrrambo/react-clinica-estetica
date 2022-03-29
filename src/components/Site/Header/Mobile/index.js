@@ -22,7 +22,7 @@ const Mobile = props => {
 
   useEffect(() => {
     const onOutsideClick = e => {
-      if (!document.getElementById('sidebar-content').contains(e.target) && sidebarIsVisible) {
+      if (!document.getElementById('sidebar-content').contains(e.target) && !(e.target instanceof SVGElement) && sidebarIsVisible) {
         setSidebarIsVisible(false);
       }
     };
