@@ -27,6 +27,10 @@ export const SidebarContent = styled.div`
   .side-navigation-panel-select-option-selected, .side-navigation-panel-select-inner-option-selected {
     border-color: #59593D;
   }
+
+  .side-navigation-panel .side-navigation-panel-select .side-navigation-panel-select-inner .side-navigation-panel-select-inner-wrap .side-navigation-panel-select-inner-option:hover {
+    border-color: #59593D;
+  }
 }
 
 `;
