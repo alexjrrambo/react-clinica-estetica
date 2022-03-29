@@ -69,6 +69,10 @@ export const CardContentStyled = styled(CardContent)`
     display: flex;
     align-items: center;
     cursor: pointer;
+
+    img {
+      height: 1rem;
+    }
   }
 
   span {

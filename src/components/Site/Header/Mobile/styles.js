@@ -7,7 +7,7 @@ export const SidebarContent = styled.div`
   left: 0;
   margin-top: 4rem;
   background-color: #fff;
-  height: calc(100vh - 2rem);
+  height: calc(100vh - 4rem);
   z-index: 9999;
   display: flex;
   flex-direction: column;
@@ -17,6 +17,7 @@ export const SidebarContent = styled.div`
   -o-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
   box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  overflow: scroll;
 
   > * {
     display: ${props => (props.visible ? 'initial' : 'none')};

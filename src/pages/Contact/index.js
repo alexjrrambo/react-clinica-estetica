@@ -2,11 +2,11 @@ import { Card } from '@material-ui/core';
 import React from 'react';
 
 import {
-  FbIcon,
-  InstaIcon,
   MailIcon,
   PhoneIcon,
 } from '../../components/Icons/FontAwsome';
+import FbIcon from '../../assets/facebook.svg';
+import InstaIcon from '../../assets/instagram.svg';
 import Localization from '../../components/Localization';
 import { emailContact, instagramLink, whatsAppLink } from '../../utils/SocialMediaLinks';
 import {
@@ -30,7 +30,7 @@ const Contact = () => {
               <Card>
                 <CardContentStyled>
                   <div>
-                    <FbIcon />
+                    <img src={FbIcon} alt="facebook" />
                     <span>/drafrancinipereira</span>
                   </div>
                   <a
@@ -39,7 +39,7 @@ const Contact = () => {
                     rel="noreferrer"
                   >
                     <div>
-                      <InstaIcon />
+                      <img src={InstaIcon} alt="instagram" />
                       <span>@drafrancinipereira</span>
                     </div>
                   </a>
