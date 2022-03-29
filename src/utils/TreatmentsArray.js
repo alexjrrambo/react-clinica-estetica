@@ -70,7 +70,7 @@ export default [
     image: PreenchimentoFacialImage,
   },
   {
-    key: 'rejuvenescimento-das-mãos',
+    key: 'rejuvenescimento-das-maos',
     label: 'Rejuvenescimento das mãos',
     description: 'Nossas mãos, com o avanço da idade, podem adquirir manchas, enrugamento, aspecto de pele envelhecida ou emagrecimento que acaba exibindo mais os tendões das mãos. Felizmente, novas técnicas de rejuvenescimento das mãos agora permitem que estes sinais da idade sejam minimizados. O tratamento não se resume a apenas a um procedimento, muitas vezes é um conjunto de técnicas e os principais procedimentos para este propósito são: o tratamento da pele, com intradermoterapia e consequente remoção de manchas, o preenchimento discreto da região com produtos absorvíveis e a aplicação de bioestimuladores do colágeno que proporcionam o aumento da produção de colágeno nas células da pele, fazendo com que as camadas da derme obtenham uma melhor textura, elasticidade e firmeza.',
     image: RejuvMaosImage,
@@ -82,7 +82,7 @@ export default [
     image: RejuvColoImage,
   },
   {
-    key: 'rinomodelação',
+    key: 'rinomodelacao',
     label: 'Rinomodelação',
     description: 'Muitas pessoas se incomodam com o osso que fica evidente na parte de cima do nariz, formando uma curva indesejada. Se todas às vezes que você se olha no espelho ou vê uma fotografia e se incomoda com essa curva no nariz, recomendamos a rinomodelação com ácido hialurônico, pois é um procedimento simples para resolver o problema. A técnica minimamente invasiva é realizada através da aplicação do preenchedor em pontos específicos, guiados pela anatomia nasal com o objetivo de devolver as proporções adequadas ao nariz.',
     image: RinomodelacaoImage,

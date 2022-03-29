@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 
 import Home from '../pages/Home';
@@ -34,12 +34,10 @@ export const PublicRoutes = () => (
       title="Sobre a Clínica"
       content="Temos como missão realçar e evidenciar a beleza de cada paciente através de tratamentos eficazes realizados por profissionais éticos e altamente qualificados, com objetivo de promover a qualidade de vida, saúde e bem-estar de cada indivíduo."
     />
-    <CustomRoute
+    <Route
       exact
       path="/tratamentos/:treatment"
       render={props => <Treatments {...props} />}
-      title="Tratamentos"
-      content="Toxina botulínica, Melasmas e manchas, Flacidez, Rinomodelação, Preenchimento facial, Skinbooster, Celulites e estrias, Gordura localizada, Microvasos, Peeling químico, Lipo enzimática de papada, Rejuvenescimento de colo, Rejuvenescimento das mãos, Tratamento capilar"
     />
     <CustomRoute
       exact

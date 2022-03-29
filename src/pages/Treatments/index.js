@@ -16,6 +16,7 @@ import {
   LinkStyled,
   MainContainer,
 } from './styles';
+import HelmetTags from '../../components/HemletTags';
 
 const defaultState = {
   key: '',
@@ -36,35 +37,41 @@ const Treatments = props => {
   }, [props]);
 
   return (
-    <MainContainer>
-      <ContentLeft>
-        <Paper sx={{ width: 250, maxWidth: '100%' }}>
-          <MenuList>
-            {TreatmentsArray.map((treatments, index) => (
-              <div key={treatments.key}>
-                <LinkStyled to={`/tratamentos/${treatments.key}`}>
-                  <MenuItem>
-                    <ListItemText>{treatments.label}</ListItemText>
-                  </MenuItem>
-                </LinkStyled>
-                {TreatmentsArray.length !== index + 1 && <Divider />}
-              </div>
-            ))}
-          </MenuList>
-        </Paper>
-      </ContentLeft>
-      <ContentRight>
-        <InformationContent>
-          <h1>{treatment.label}</h1>
-          <p>
-            {parse(treatment.description)}
-          </p>
-        </InformationContent>
-        <div>
-          <img src={treatment.image} alt="" />
-        </div>
-      </ContentRight>
-    </MainContainer>
+    <>
+      <HelmetTags
+        title={`Tratamentos - ${treatment.label}`}
+        content={treatment.description}
+      />
+      <MainContainer>
+        <ContentLeft>
+          <Paper sx={{ width: 250, maxWidth: '100%' }}>
+            <MenuList>
+              {TreatmentsArray.map((treatments, index) => (
+                <div key={treatments.key}>
+                  <LinkStyled to={`/tratamentos/${treatments.key}`}>
+                    <MenuItem>
+                      <ListItemText>{treatments.label}</ListItemText>
+                    </MenuItem>
+                  </LinkStyled>
+                  {TreatmentsArray.length !== index + 1 && <Divider />}
+                </div>
+              ))}
+            </MenuList>
+          </Paper>
+        </ContentLeft>
+        <ContentRight>
+          <InformationContent>
+            <h1>{treatment.label}</h1>
+            <p>
+              {parse(treatment.description)}
+            </p>
+          </InformationContent>
+          <div>
+            <img src={treatment.image} alt="" />
+          </div>
+        </ContentRight>
+      </MainContainer>
+    </>
   );
 };
 

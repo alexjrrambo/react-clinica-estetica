@@ -15,7 +15,6 @@ export const LocalizationContent = styled.div`
   flex-direction: column;
   align-items: center;
   height: 35rem;
-  margin-bottom: 1rem;
 
   h4 {
     margin: 2rem 0 0 0;
