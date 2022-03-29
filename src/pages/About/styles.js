@@ -41,11 +41,12 @@ export const ContentLeft = styled.div`
 
 export const ContentRight = styled.div`
   height: 25rem;
+  flex: 1;
 
   .image-wrapper {
     flex: 1;
-    width: 100%;
-    height: 100%;
+    height: 25rem;
+    width: 25rem;
     overflow: hidden;
     position: relative;
 
