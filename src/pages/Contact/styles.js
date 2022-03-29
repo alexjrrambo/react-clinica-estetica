@@ -73,6 +73,10 @@ export const CardContentStyled = styled(CardContent)`
     img {
       height: 1rem;
     }
+
+    :hover {
+      opacity: 0.9;
+    }
   }
 
   span {

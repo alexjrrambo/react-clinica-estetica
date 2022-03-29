@@ -35,6 +35,10 @@ export const FooterLeft = styled.div`
     display: flex;
     align-items: center;
     cursor: pointer;
+
+    :hover {
+      opacity: 0.9;
+    }
   }
 
   span {
