@@ -45,6 +45,10 @@ export const InstitutionalContent = styled.div`
     @media (max-width: 1024px) {
       width: 100%;
       margin-bottom: 1rem;
+
+      :last-child {
+        margin-bottom: 2rem;
+      }
     }
   }
 

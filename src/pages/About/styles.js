@@ -13,6 +13,12 @@ export const MainContent = styled.div`
 
   > div {
     margin: 2rem;
+
+    :last-child {
+      @media (max-width: 1024px) {
+        margin: 1rem;
+      }
+    }
   }
 
   @media (max-width: 1024px) {
@@ -67,5 +73,9 @@ export const ContentRight = styled.div`
         -ms-transform: skew(-80deg) translateX(1260px);
             transform: skew(-80deg) translateX(1260px);
     right: 0;
+
+    @media (max-width: 1024px) {
+      right: 180px;
+    }
   }
 `;

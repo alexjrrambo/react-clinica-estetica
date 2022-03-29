@@ -21,7 +21,7 @@ import {
   LinkStyled,
 } from './styles';
 import Mobile from './Mobile';
-import { instagramLink, whatsAppLink } from '../../../utils/SocialMediaLinks';
+import { facebookLink, instagramLink, whatsAppLink } from '../../../utils/SocialMediaLinks';
 
 const LinksReadyToCrawler = () => (
   <div style={{
@@ -87,7 +87,7 @@ const Header = props => {
             </a>
             <div>
               <a
-                href="https://google.com"
+                href={facebookLink}
                 target="_blank"
                 rel="noreferrer"
               >

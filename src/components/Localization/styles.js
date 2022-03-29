@@ -6,7 +6,7 @@ export const LocalizationContainer = styled.div`
 
   @media (max-width: 1024px) {
     width: 100%;
-    padding: 0;
+    padding: 0 0 1rem 0;
   }
 `;
 
@@ -15,6 +15,7 @@ export const LocalizationContent = styled.div`
   flex-direction: column;
   align-items: center;
   height: 35rem;
+  margin-bottom: 1rem;
 
   h4 {
     margin: 2rem 0 0 0;
@@ -43,7 +44,7 @@ export const LocalizationContent = styled.div`
   > span {
     text-align: center;
     font-size: 0.8rem;
-    margin: 1rem;
+    margin: 1.5rem;
   }
 
   img {

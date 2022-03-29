@@ -13,7 +13,7 @@ import {
 import { ContactInformation, HeaderContentMobile, SidebarContent } from './styles';
 import { history } from '../../../../routes';
 import 'react-minimal-side-navigation/lib/ReactMinimalSideNavigation.css';
-import { instagramLink, whatsAppLink } from '../../../../utils/SocialMediaLinks';
+import { facebookLink, instagramLink, whatsAppLink } from '../../../../utils/SocialMediaLinks';
 
 const Mobile = props => {
   console.log(props);
@@ -103,7 +103,7 @@ const Mobile = props => {
           </div>
           <div>
             <a
-              href="https://google.com"
+              href={facebookLink}
               target="_blank"
               rel="noreferrer"
             >

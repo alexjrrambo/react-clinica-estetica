@@ -8,7 +8,12 @@ import {
 import FbIcon from '../../assets/facebook.svg';
 import InstaIcon from '../../assets/instagram.svg';
 import Localization from '../../components/Localization';
-import { emailContact, instagramLink, whatsAppLink } from '../../utils/SocialMediaLinks';
+import {
+  emailContact,
+  facebookLink,
+  instagramLink,
+  whatsAppLink,
+} from '../../utils/SocialMediaLinks';
 import {
   CardContentStyled,
   Content,
@@ -29,10 +34,16 @@ const Contact = () => {
               <h4>Redes sociais</h4>
               <Card>
                 <CardContentStyled>
-                  <div>
-                    <img src={FbIcon} alt="facebook" />
-                    <span>/drafrancinipereira</span>
-                  </div>
+                  <a
+                    href={facebookLink}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <div>
+                      <img src={FbIcon} alt="facebook" />
+                      <span>/drafrancinipereira</span>
+                    </div>
+                  </a>
                   <a
                     href={instagramLink}
                     target="_blank"
