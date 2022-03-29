@@ -52,7 +52,7 @@ const HomeMobile = () => {
             <div>
               <span>Nos dedicamos em prevenir e tratar as alterações estéticas do maior órgão do corpo humano, a pele, buscando amenizar e prevenir os sinais do tempo, além de transformar seu sonho em realidade.</span>
             </div>
-            <ButtonMore onClick={() => window.scrollTo({ top: screen.height - 60, behavior: 'smooth' })}>
+            <ButtonMore onClick={() => window.scrollTo({ top: window.innerHeight - 64, behavior: 'smooth' })}>
               <ArrowDownNormalIcon />
             </ButtonMore>
             <InformationContent>
