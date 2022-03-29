@@ -14,7 +14,7 @@ const Localization = () => {
     <LocalizationContainer>
       <LocalizationContent>
         <h4>Localização</h4>
-        <span>Rua Sete de Setembro, nº 434, Centro, Sapiranga - RS <br />Centro Comercial e Residencial Vitale</span>
+        <span>Rua Sete de Setembro, nº 434, sala 607, Centro, Sapiranga - RS <br />Centro Comercial e Residencial Vitale</span>
         <Tooltip title="Abrir no Google Maps">
           <img
             src={LocalizationImage}

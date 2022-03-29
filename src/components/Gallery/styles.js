@@ -7,6 +7,8 @@ export const GalleryContainer = styled.div`
   align-items: center;
   justify-content: center;
   background: #fff;
+  //TODO Remover quando tiver fotos da estrutura
+  display: none;
 
 
   h4 {

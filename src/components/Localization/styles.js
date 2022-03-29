@@ -16,14 +16,34 @@ export const LocalizationContent = styled.div`
   align-items: center;
   height: 35rem;
 
-  > h4 {
-    margin-bottom: 1rem;
+  h4 {
+    margin: 2rem 0 0 0;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 300;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    text-align:center;
+
+    :before {
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 80px;
+      height: 2px;
+      content: "";
+      background-color: #59593D;
+      left:50%;
+      margin-left:-40px;
+    }
+
   }
 
   > span {
     text-align: center;
     font-size: 0.8rem;
-    margin-bottom: 1rem;
+    margin: 1rem;
   }
 
   img {
