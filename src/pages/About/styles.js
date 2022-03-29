@@ -16,7 +16,7 @@ export const MainContent = styled.div`
   }
 
   @media (max-width: 1024px) {
-    margin: 2rem 0;
+    margin: 2rem 0 0 0;
     flex-direction: column;
   }
 `;
@@ -42,6 +42,16 @@ export const ContentRight = styled.div`
     height: 100%;
     overflow: hidden;
     position: relative;
+
+    @media (max-width: 1024px) {
+      height: 25rem;
+      width: 25rem;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+
+    }
   }
 
   .image-wrapper > img {
