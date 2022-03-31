@@ -18,7 +18,7 @@ export const PublicRoutes = () => (
       path="/home"
       render={Home}
       title="Francini Pereira - Biomedicina Estética"
-      content="Clinica de estética avançada localizada em Sapiranga, especializada em procedimentos de harmonização facial e corporal, como toxina botulínica, preenchimentos e muito mais."
+      content="Clínica de estética avançada localizada em Sapiranga, especializada em procedimentos de harmonização facial e corporal, como toxina botulínica, preenchimentos e muito mais."
     />
     <CustomRoute
       exact
@@ -50,7 +50,7 @@ export const PublicRoutes = () => (
       path="/"
       component={Home}
       title="Francini Pereira - Biomedicina Estética"
-      content="Clinica de estética avançada localizada em Sapiranga, especializada em procedimentos de harmonização facial e corporal, como toxina botulínica, preenchimentos e muito mais."
+      content="Clínica de estética avançada localizada em Sapiranga, especializada em procedimentos de harmonização facial e corporal, como toxina botulínica, preenchimentos e muito mais."
     />
   </Switch>
 );
