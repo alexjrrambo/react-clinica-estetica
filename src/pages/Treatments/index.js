@@ -40,7 +40,7 @@ const Treatments = props => {
     <>
       <HelmetTags
         title={`Tratamentos - ${treatment.label}`}
-        content={treatment.description}
+        content={`${treatment.label}, tudo que você precisa saber sobre os tratamentos que a Francini Pereira - Biomedicina Estética oferece.`}
       />
       <MainContainer>
         <ContentLeft>

@@ -42,7 +42,7 @@ export default [
   {
     key: 'melasmas-e-manchas',
     label: 'Melasmas e manchas',
-    description: 'O melasma é uma condição crônica que se caracteriza pela presença de manchas escuras na pele, principalmente na face. Pode ser causada por diversos fatores, mas a exposição à radiação UV está entre os fatores mais importantes. Ocorre em todas as raças e ambos os sexos, entretanto, as mulheres em idade fértil são as mais acometidas. Embora não tenha cura, existem muitos métodos capazes de clarear, estabilizar e impedir que o pigmento escuro volte. Com a técnica de mesoterapia é possível administrar diversos ativos em doses capazes de despigmentantes a região afetada, fazendo com que a coloração da pele retorne ao normal.',
+    description: 'O melasma é uma condição crônica que se caracteriza pela presença de manchas escuras na pele, principalmente na face. Pode ser causada por diversos fatores, mas a exposição à radiação UV está entre os fatores mais importantes. Ocorre em todas as raças e ambos os sexos, entretanto, as mulheres em idade fértil são as mais acometidas. Embora não tenha cura, existem muitos métodos capazes de clarear, estabilizar e impedir que o pigmento escuro volte. Com a técnica de mesoterapia é possível administrar diversos ativos em doses capazes de despigmentar a região afetada, fazendo com que a coloração da pele retorne ao normal.',
     image: MelasmasImage,
   },
   {

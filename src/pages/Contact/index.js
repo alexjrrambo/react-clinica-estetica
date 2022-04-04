@@ -26,6 +26,7 @@ const Contact = () => {
   return (
     <>
       <MainContainer>
+        <h1>Fale conosco</h1>
         <Content>
           <ContentLeft>
             <div>

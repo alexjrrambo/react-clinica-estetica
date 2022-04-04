@@ -1,44 +1,45 @@
+import Estrutura1 from '../assets/estrutura1.jpg';
+import Estrutura2 from '../assets/estrutura2.jpg';
+import Estrutura3 from '../assets/estrutura3.jpg';
+import Estrutura4 from '../assets/estrutura4.jpg';
+import Estrutura5 from '../assets/estrutura5.jpg';
+import Estrutura6 from '../assets/estrutura6.jpg';
+import Estrutura1T from '../assets/estrutura1t.jpg';
+import Estrutura2T from '../assets/estrutura2t.jpg';
+import Estrutura3T from '../assets/estrutura3t.jpg';
+import Estrutura4T from '../assets/estrutura4t.jpg';
+import Estrutura5T from '../assets/estrutura5t.jpg';
+import Estrutura6T from '../assets/estrutura6t.jpg';
+
 export default [
   {
-    url:
-      'https://images.unsplash.com/photo-1465310477141-6fb93167a273?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-    title: 'Kayak',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1465310477141-6fb93167a273?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80',
+    url: Estrutura1,
+    title: '',
+    thumbUrl: Estrutura1T,
   },
   {
-    url:
-      'https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-    title: 'Cyclist competition',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1517649763962-0c623066013b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80',
+    url: Estrutura2,
+    title: '',
+    thumbUrl: Estrutura2T,
   },
   {
-    url:
-      'https://images.unsplash.com/photo-1526485856375-9110812fbf35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-    title: 'Surfer in action',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1526485856375-9110812fbf35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80',
+    url: Estrutura3,
+    title: '',
+    thumbUrl: Estrutura3T,
   },
   {
-    url:
-      'https://images.unsplash.com/photo-1423994485548-7c3cf5c99cfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80',
-    title: 'Drops',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1423994485548-7c3cf5c99cfb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1947&q=80',
-  },
-
-  {
-    url:
-      'https://images.unsplash.com/photo-1444465693019-aa0b6392460d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80',
-    title: 'Bird',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1444465693019-aa0b6392460d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80',
+    url: Estrutura4,
+    title: '',
+    thumbUrl: Estrutura4T,
   },
   {
-    url:
-      'https://images.unsplash.com/photo-1436968188282-5dc61aae3d81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80',
-    thumbUrl:
-      'https://images.unsplash.com/photo-1436968188282-5dc61aae3d81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=250&q=80',
+    url: Estrutura5,
+    title: '',
+    thumbUrl: Estrutura5T,
+  },
+  {
+    url: Estrutura6,
+    title: '',
+    thumbUrl: Estrutura6T,
   },
 ];

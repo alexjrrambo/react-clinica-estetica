@@ -32,7 +32,7 @@ export const PublicRoutes = () => (
       path="/clinica"
       render={Clinic}
       title="Sobre a Clínica"
-      content="Temos como missão realçar e evidenciar a beleza de cada paciente através de tratamentos eficazes realizados por profissionais éticos e altamente qualificados, com objetivo de promover a qualidade de vida, saúde e bem-estar de cada indivíduo."
+      content="Saiba mais sobre a clínica Francini Pereira - Biomedicina Estética, localizada em Sapiranga-RS."
     />
     <Route
       exact
@@ -44,7 +44,7 @@ export const PublicRoutes = () => (
       path="/contato"
       render={props => <Contact {...props} />}
       title="Contato"
-      content="Contatos e redes sociais"
+      content="Contatos e redes sociais."
     />
     <CustomRoute
       path="/"

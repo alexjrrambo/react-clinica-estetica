@@ -3,10 +3,33 @@ import styled from 'styled-components';
 
 export const MainContainer = styled.section`
   //min-height: calc(100vh - 12rem);
-  margin: 9rem 5rem 0 5rem;
+  margin: 11rem 5rem 0 5rem;
+
+  h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    position: relative;
+    font-weight: 300;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    text-align:center;
+
+    :before {
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 80px;
+      height: 2px;
+      content: "";
+      background-color: #59593D;
+      left:50%;
+      margin-left:-40px;
+    }
+  }
 
   @media (max-width: 1024px) {
-    margin: 4rem 0 1rem 0;
+    margin: 6rem 0 1rem 0;
   }
 `;
 
@@ -15,7 +38,7 @@ export const Content = styled.section`
   // justify-content: flex-start;
 
   > div {
-    margin: 2rem;
+    margin: 1rem;
 
     @media (max-width: 1024px) {
       margin: 0 0 1rem 0;
