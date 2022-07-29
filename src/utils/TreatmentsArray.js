@@ -60,7 +60,7 @@ export default [
   {
     key: 'peeling-quimico',
     label: 'Peeling químico',
-    description: 'O peeling químico é um tratamento que utiliza ácidos para provocar uma descamação da pele. O procedimento promove a descamação e a renovação da derme e, dependendo da substância utilizada, ele terá efeito de maior ou menor profundidade. Ele pode ser aplicado no rosto, nas mãos e no pescoço para melhorar a textura e rejuvenescer. Após o peeling, as células se renovam e forma-se uma nova camada de pele lisa, elástica e suave. Indicações para utilização deste procedimento: reduzir linhas finas, tratar rugas causadas por envelhecimento e exposição ao sol, melhorar a aparência de cicatrizes leves, controlar a oleosidade da pele, fechar poros dilatados, tratar certos tipos de acne e cicatrizes de acne, reduzir manchas de idade, sardas e Melasma, melhorar a qualidade da pele.',
+    description: 'O peeling químico é um tratamento que utiliza ácidos para provocar uma descamação da pele. O procedimento promove a descamação e a renovação da derme e, dependendo da substância utilizada, ele terá efeito de maior ou menor profundidade. Ele pode ser aplicado no rosto, nas mãos e no pescoço para melhorar a textura e rejuvenescer. Após o peeling, as células se renovam e forma-se uma nova camada de pele lisa, elástica e suave. Indicações para utilização deste procedimento: reduzir linhas finas, tratar rugas causadas por envelhecimento e exposição ao sol, melhorar a aparência de cicatrizes leves, controlar a oleosidade da pele, fechar poros dilatados, tratar certos tipos de acne e cicatrizes de acne, reduzir manchas de idade, sardas e melasma, melhorar a qualidade da pele.',
     image: PeelingQuimicoImage,
   },
   {
@@ -96,7 +96,7 @@ export default [
   {
     key: 'toxina-butolinica',
     label: 'Toxina botulínica',
-    description: 'A toxina botulínica (produzida pela bactéria <i>Clostridium botulinum</i>) é um agente biológico obtido laboratorialmente e leva à uma diminuição da contração muscular. Esta propriedade a torna útil, clínica e terapeuticamente, em uma série de condições em que existe excesso de contração muscular.<br />Se trata de uma procedimento minimamente invasivo não-cirúrgico, seguro, reversível e de ação prolongada sobre o funcionamento muscular. O tratamento com toxina botulínica trata rugas dinâmicas (rugas e linhas de expressão): rugas frontais, estbilização da ponta do nariz e elevação da ponta nasal, rugas peribucis, mentuais, lábios, bandas platismais, contorno facial, sorriso gengival, elevação da cauda da sombrancelhas, dentre outras indicações.',
+    description: 'A toxina botulínica (produzida pela bactéria <i>Clostridium botulinum</i>) é um agente biológico obtido laboratorialmente e leva à uma diminuição da contração muscular. Esta propriedade a torna útil, clínica e terapeuticamente, em uma série de condições em que existe excesso de contração muscular.<br />Se trata de uma procedimento minimamente invasivo não-cirúrgico, seguro, reversível e de ação prolongada sobre o funcionamento muscular. O tratamento com toxina botulínica trata rugas dinâmicas (rugas e linhas de expressão): rugas frontais, estabilização da ponta do nariz e elevação da ponta nasal, rugas peribucais, mentuais, lábios, bandas platismais, contorno facial, sorriso gengival, elevação da cauda da sobrancelhas, dentre outras indicações.',
     image: ToxinaImage,
   },
   {
