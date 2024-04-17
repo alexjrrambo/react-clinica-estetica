@@ -5,7 +5,7 @@ export const MainContainer = styled.section`
   height: 33rem;
   display: flex;
   margin-top: 9rem;
-  background-color: #9C9F8C;
+  background-color: rgb(89, 89, 61);
 
   @media (max-width: 1200px) {
       height: 28rem;
@@ -132,7 +132,7 @@ export const ContentRight = styled.div`
   }
 
   .cut {
-    background: #9C9F8C; /* A cor dos elementos antes e depois */
+    background: rgb(89, 89, 61); /* A cor dos elementos antes e depois */
     display: block;
     top: 0; bottom: 0;
     position: absolute;

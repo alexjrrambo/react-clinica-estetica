@@ -1,6 +1,6 @@
 import React from 'react';
 
-import FranciniImage from '../../assets/dra-francini.jpg';
+import FranciniImage from '../../assets/dra-francini.png';
 import {
   Avatar,
   ContentLeft, ContentRight, MainContainer, MainContent,
@@ -18,6 +18,7 @@ const About = () => {
             Bacharelado em Biomedicina - Patologia Clínica <br />
             Especialização em Biomedicina Estética <br />
             Mestrado em Virologia <br />
+            Professora na área de saúde
           </span>
         </ContentLeft>
         <ContentRight>

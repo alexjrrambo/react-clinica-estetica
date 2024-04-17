@@ -15,7 +15,7 @@ import BackgroundImage from '../../assets/photoHome.png';
 import Gallery from '../../components/Gallery';
 import ImagesArray from '../../utils/ImagesArray';
 import Localization from '../../components/Localization';
-import { openOnlineScheduleExternal, openWhatsAppExternal } from '../../utils/SocialMediaLinks';
+import { openWhatsAppExternal } from '../../utils/SocialMediaLinks';
 
 const Home = () => {
   return (
@@ -31,18 +31,6 @@ const Home = () => {
             <InformationContent>
               <h3>Agende sua consulta</h3>
               <ActionsContent>
-                <Card>
-                  <CardContentStyled>
-                    <span>Escolha o melhor horário para sua consulta utilizando nosso agendamento online</span>
-                    <Button
-                      variant="contained"
-                      color="primary"
-                      onClick={openOnlineScheduleExternal}
-                    >
-                      Agendar online
-                    </Button>
-                  </CardContentStyled>
-                </Card>
                 <Card>
                   <CardContentStyled>
                     <span>Você também pode marcar sua consulta através do nosso WhatsApp</span>
